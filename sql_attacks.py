@@ -19,7 +19,7 @@ def valid_tests():
 
 # Create a function that feeds these test cases through the query function 
 # and displays the resulting query
-def valid_tests(valid_tests):
+def test_valid(valid_tests):
 
     # loop through valid test cases, print output
     pass
@@ -36,7 +36,7 @@ def tautology_tests():
 # function and displays the output.
 def test_tautology(tautology_tests):
 
-    # loop through tautology test cases, print output
+    # loop through tautology test cases, run query, print output
     pass
 
 
@@ -51,7 +51,7 @@ def union_tests():
 # function and displays the output 
 def test_union(union_tests):
 
-    # loop through union test cases, print output
+    # loop through union test cases, run_query, print output
     pass
 
 
@@ -66,7 +66,7 @@ def additional_statement_tests():
 # through the additional statement function and displays the output 
 def test_additional_statement(additional_statement_test):
 
-    # loop through additional statement test cases, print output
+    # loop through additional statement test cases, run query, print output
     pass
 
 
@@ -79,7 +79,7 @@ def comment_tests():
 
 # Create a function that feeds these comment test cases through the query 
 # function and displays the output 
-def test_comments(comment_test):
+def test_comment(comment_test):
 
     # loop through comment test cases, print output
     pass
@@ -88,19 +88,46 @@ def test_comments(comment_test):
 # Create a function to provide a weak mitigation against all four attacks. 
 # This function accepts the input as a parameter (or two!) and returns the 
 # sanitized input.
-def weak_mitigation(username, password):
+def weak_mitigation(test_cases):
     pass
 
 
 # Create a function to provide a strong mitigation against all command 
 # injection attacks. This function accepts the input as a parameter (or two!) 
 # and returns the sanitized input.
-def strong_mitigation(username, password):
+def strong_mitigation(test_cases):
     pass
 
 
 # main function
 def main():
+    
+    # call test_valid(valid_test())
+
+    # call test_tautology(tautology_tests())
+
+    # call test_union(union_tests())
+
+    # call test_additional_statement(additional_statement_tests())
+
+    # call test_comment(comment_tests())
+
+    # call test_tautology(weak_mitigation(tautology_tests()))
+
+    # call test_union(weak_mitigation(union_tests()))
+
+    # call test_additional_statement(weak_mitigation(additional_statement_tests()))
+
+    # call test_comment(weak_mitigation(comment_tests()))  
+
+    # call test_tautology(strong_mitigation(tautology_tests()))
+
+    # call test_union(strong_mitigation(union_tests()))
+
+    # call test_additional_statement(strong_mitigation(additional_statement_tests()))
+
+    # call test_comment(strong_mitigation(comment_tests()))  
+    
     pass
 
 
